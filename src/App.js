@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import NavBar from "./components/navBar";
 import About from "./about";
+import Steps from "./components/steps";
 import './App.css'
 
 function App(){
@@ -13,7 +14,10 @@ function App(){
         <NavBar />
       </div >
       <div className="about" >
-      <About />
+        <About />
+      </div>
+      <div>
+          <Steps/>
       </div>
     </div>
   )

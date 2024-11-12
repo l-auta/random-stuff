@@ -40,6 +40,24 @@
   text-align: center;
 }
 
+.steps{
+  animation: slideInFromRight 3.3s ease-out forwards;
+  background-image: linear-gradient(to bottom right, #f1e5edf5, #9e8f9af5, #695e64ee);
+  border-radius: 50px 10px 8px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+.steps h1{
+  text-align: center;
+}
+
+.one{
+  background-image: linear-gradient(to bottom right, #ca64a8f5, #be83aff5, #7e0949ee);
+}
+
 .app{
   background-color: aliceblue;
 }
+
