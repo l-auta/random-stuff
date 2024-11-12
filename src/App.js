@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import NavBar from "./components/navBar";
+import About from "./about";
 import './App.css'
 
 function App(){
@@ -10,6 +11,9 @@ function App(){
       </div>
       <div className="navbar">
         <NavBar />
+      </div >
+      <div className="about" >
+      <About />
       </div>
     </div>
   )
