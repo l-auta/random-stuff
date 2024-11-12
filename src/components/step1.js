@@ -13,8 +13,9 @@ function One(){
         <li>Every ship must be completely on the grid. No ship can hang off the edge of the board.</li>
         <li>Once your ships are placed and the game has begun, you are not allowed to move your ships again.</li>
       </ul>
-        <button className="bnt-one" onClick={() => setIsVisible(!isVisible)}>
-          {isVisible ? "Hide" : "Show"} Board
+     {/*a button where when pressed it mounts the board */}
+        <button className="bnt-one" onClick={() => setIsVisible(!isVisible)}>{/*when you click it changes the value to true */}
+          {isVisible ? "Hide" : "Show"} Board {/*since its false it'll bring show */}
         </button>
         {isVisible && <BattleshipBoard />} {/* Conditionally render BattleshipBoard */}
       </div>
