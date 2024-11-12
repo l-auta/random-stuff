@@ -10,6 +10,7 @@ function Three(){
             <button className="bnt-one" onClick={() => setIsVisible(!isVisible)}>
             {isVisible ? "Hide" : "Show"} Board
             </button>
+            <p><i>(ships 1A to 1D and 7A to 9A have been sunk)</i></p>
             {isVisible && <BattleshipBoardThree />} {/* Conditionally render BattleshipBoard */}
         </div>
     )

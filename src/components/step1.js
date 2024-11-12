@@ -17,6 +17,7 @@ function One(){
         <button className="bnt-one" onClick={() => setIsVisible(!isVisible)}>{/*when you click it changes the value to true */}
           {isVisible ? "Hide" : "Show"} Board {/*since its false it'll bring show */}
         </button>
+        <p><i>(the cells in blue indicate the ship positions)</i></p>
         {isVisible && <BattleshipBoard />} {/* Conditionally render BattleshipBoard */}
       </div>
     );

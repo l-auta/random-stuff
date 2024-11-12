@@ -12,6 +12,7 @@ function Two(){
             <button className="bnt-one" onClick={() => setIsVisible(!isVisible)}>
             {isVisible ? "Hide" : "Show"} Board
             </button>
+            <p><i>(the cells in the darker color indicate 'hits' while those that are lighter than the board indicate "misses')</i></p>
             {isVisible && <BattleshipBoardTwo />} {/* Conditionally render BattleshipBoard */}
         </div>
     )
