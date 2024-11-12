@@ -9,11 +9,11 @@
 }
 @keyframes slideInFromRight {
   0% {
-    transform: translateY(100%); /* Start off-screen to the right */
+    transform: translateX(100%); /* Start off-screen to the right */
     opacity: 0; /* Start as invisible */
   }
   100% {
-    transform: translateY(0); /* Move to its normal position */
+    transform: translateX(0); /* Move to its normal position */
     opacity: 1; /* Fully visible */
   }
 }
