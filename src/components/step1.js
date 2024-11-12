@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import BattleshipBoard from "./stepOneBoard";
-import './button.css'
 
 function One(){
     const [isVisible, setIsVisible] = useState(false);

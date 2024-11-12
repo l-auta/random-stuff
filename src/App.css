@@ -1,8 +1,10 @@
 .header{
   text-align: center;
   font-size: 30px;
-  background-image: linear-gradient(to right, #f1e5edf5, #9e8f9af5, #695e64ee);
+  background-image: linear-gradient(to right, #526d82, #27374d);
   border-radius: 15px 20px 10px;
+  color: #dde6ed;
+  margin: 3px;
   padding: 1px;
   position: relative;
   animation: slideInFromRight 3s ease-out forwards; 
@@ -19,20 +21,22 @@
 }
 
 .navbar{
-  background-image: linear-gradient(to right, #f1e5edf5, #9e8f9af5, #695e64ee);
+  background-image: linear-gradient(to right, #526d82, #27374d);
   border-radius: 50px 10px 8px;
+  color: #dde6ed;
   padding: 3px;
-  margin-top: 10px;
+  margin: 5px;
   animation: slideInFromRight 3.1s ease-out forwards; 
   font-size: 25px;
 }
 
 .about{
   animation: slideInFromRight 3.2s ease-out forwards;
-  background-image: linear-gradient(to bottom right, #f1e5edf5, #9e8f9af5, #695e64ee);
-  border-radius: 50px 10px 8px;
+  background-image: linear-gradient(to bottom right, #526d82, #27374d);
+  border-radius: 25px;
+  color: #dde6ed;
   padding: 5px;
-  margin-top: 10px;
+  margin: 10px;
   font-size: 25px;
 }
 
@@ -42,10 +46,11 @@
 
 .steps{
   animation: slideInFromRight 3.3s ease-out forwards;
-  background-image: linear-gradient(to bottom right, #f1e5edf5, #9e8f9af5, #695e64ee);
-  border-radius: 50px 10px 8px;
+  background-image: linear-gradient(to bottom right, #526d82, #27374d);
+  border-radius: 25px;
+  color: #dde6ed;
   padding: 5px;
-  margin-top: 10px;
+  margin: 10px;
   font-size: 25px;
 
 }
@@ -53,11 +58,98 @@
   text-align: center;
 }
 
-.one{
-  background-image: linear-gradient(to bottom right, #ca64a8f5, #be83aff5, #7e0949ee);
-}
-
 .app{
   background-color: aliceblue;
+}
+
+.one{
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  background-image: linear-gradient(to top right, #27374D, #526D82);
+}
+
+.two{
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  background-image: linear-gradient(to top right, #27374D, #526D82);
+}
+
+.three{
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+  background-image: linear-gradient(to top right, #27374D, #526D82);
+}
+
+
+/*battleship styling for the board*/
+.battleship-board {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  background-color: #fff;
+}
+
+th, td {
+  width: 40px;
+  height: 40px;
+  color: #526d82;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td {
+  background-color: #e0e0e0;
+}
+
+td:hover {
+  background-color: #d4d4d4;
+}
+
+/* Styling for cells containing ships */
+.ship {
+  background-color: #27374d; /* Green color for ships */
+}
+
+/* Optional: Different color for the first column and row */
+th:first-child, td:first-child {
+  background-color: #f0f0f0;
+}
+
+ /* Styling for hits */
+ .hit {
+  background-color: #526d82; /* Red color for hits */
+}
+
+/* Styling for misses */
+.miss {
+  background-color: #9DB2BF; /* Blue color for misses */
+}
+
+/* Optional: Different color for the first column and row */
+th:first-child, td:first-child {
+  background-color: #f0f0f0;
+}
+
+
+/*button styling*/
+.bnt-one{
+  padding: 5px;
+  background-color: #dde6ed;
+  border-radius: 5px 10px;
+  border: solid 1px #27374d;
+  font-size: 20px;
 }
 

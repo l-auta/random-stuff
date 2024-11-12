@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './BattleshipBoardTwo.css';
+// import './BattleshipBoardTwo.css';
 
 const BattleshipBoardTwo = () => {
   const gridSize = 10;
