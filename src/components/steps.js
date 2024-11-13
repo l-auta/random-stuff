@@ -83,9 +83,11 @@ function Three(){
                 <h3>Step Three</h3>
                 {Three()}
             </div>
+            <button className="start-game-btn" onClick={() => alert('Start the game!')}>Start Game</button>
         </div>
 
     )
 }
+
 
 export default Steps
