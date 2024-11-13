@@ -1,6 +1,5 @@
 import Header from "./components/header";
 import NavBar from "./components/navBar";
-import About from "./about";
 import Steps from "./components/steps";
 import './App.css'
 
@@ -13,9 +12,6 @@ function App(){
       <div className="navbar">
         <NavBar />
       </div >
-      <div className="about" >
-        <About />
-      </div>
       <div>
           <Steps/>
       </div>

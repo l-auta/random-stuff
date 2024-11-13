@@ -30,20 +30,6 @@
   font-size: 25px;
 }
 
-.about{
-  animation: slideInFromRight 3.2s ease-out forwards;
-  background-image: linear-gradient(to bottom right, #526d82, #27374d);
-  border-radius: 25px;
-  color: #dde6ed;
-  padding: 5px;
-  margin: 10px;
-  font-size: 25px;
-}
-
-.about h1{
-  text-align: center;
-}
-
 .steps{
   animation: slideInFromRight 3.3s ease-out forwards;
   background-image: linear-gradient(to bottom right, #526d82, #27374d);

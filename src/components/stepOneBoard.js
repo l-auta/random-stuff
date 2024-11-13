@@ -1,5 +1,4 @@
 import React from 'react';
-// import './BattleshipBoardOne.css';
 
 const BattleshipBoard = () => {
   const gridSize = 10;
